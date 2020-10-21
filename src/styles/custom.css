@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    color: rgb(43, 43, 39);
+}
+
+.navbar-brand {
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 15px;
+}
+
+.poster-card {
+    width: 20rem;
+    margin: 1em;
+}
+
+.poster-card h5 {
+    height: 92px; /* fixed height */
+}
+
+.loader-container {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+}
